@@ -1,0 +1,13 @@
+/* Put your style here! */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #0b652e;
+}
+
+h1 {
+  color: white;
+}
