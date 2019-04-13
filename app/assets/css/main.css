@@ -5,9 +5,88 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  background: #0b652e;
 }
 
 h1 {
   color: white;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  position: relative;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 20% auto 30%;
+  grid-template-rows: 300px;
+  border: 1px solid;
+
+  max-width: 1024px;
+
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+#img-div {
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+#image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Tesla_Sarony.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+.float {
+  position: absolute;
+  display: flex;
+
+  background-color: ;
+
+  border-style: solid;
+  border-width: thin;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 200px;
+
+  top: 16px;
+  left: 64px;
+
+  margin: 5px;
+
+  z-index: 10;
+}
+
+.item {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }

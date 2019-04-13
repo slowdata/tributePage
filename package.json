@@ -1,0 +1,24 @@
+{
+  "name": "tributePage",
+  "version": "1.0.0",
+  "description": "First of all, you need ```git, node``` installed on your machine before clone this project. ___ After that, you can see all the scaffold you had on this project: ```     |- app/         |- assets/             |- css/                 |- main.css /*Your styles should go here!*/             |- fonts/             |- img/             |- icons/         |- index.html /* Your html syntax should go here! */         |- index.js /* If you have any js code for your tribute, that should be here! */ ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowdata/tributePage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowdata/tributePage/issues"
+  },
+  "homepage": "https://github.com/slowdata/tributePage#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
