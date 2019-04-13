@@ -62,8 +62,6 @@ h1 {
   position: absolute;
   display: flex;
 
-  background-color: ;
-
   border-style: solid;
   border-width: thin;
   flex-direction: row;
@@ -88,5 +86,14 @@ h1 {
   .content {
     grid-template-columns: auto;
     grid-template-rows: auto;
+  }
+  #image {
+    width: auto;
+    height: 300px;
+  }
+
+  #float {
+    position: block;
+    display: flex;
   }
 }
